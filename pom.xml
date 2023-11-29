@@ -78,8 +78,13 @@
 		    <artifactId>spring-boot-starter-mail</artifactId>
 		    
 		</dependency>
+          <!-- HikariCP 5.0  -->
 
-
+		  <dependency>
+		  <groupId>com.zaxxer</groupId>
+		  <artifactId>HikariCP</artifactId>
+		  
+		</dependency>
 		
 		<!-- jwt  -->
 		<dependency>
